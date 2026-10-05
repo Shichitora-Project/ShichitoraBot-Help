@@ -12,7 +12,19 @@
 
 | タイトル | 説明 |
 |---------|------|
+| [公式Bot](#公式bot) | 公式が提供しているBotの一覧 |
 | [荒らし対策ルール一覧](#荒らし対策ルール一覧) | 荒らし対策のルールとその機能について |
+
+---
+
+## 公式Bot
+
+| ボット名 | 導入URL | Bot ID |
+|--------|--------|--------|
+| 七虎なるくん#2626 | [https://discord.com/oauth2/authorize?client_id=1350156436562514043](https://discord.com/oauth2/authorize?client_id=1350156436562514043) | `1350156436562514043` |
+| 七虎なるくん【VC-1】#9327 | [https://discord.com/oauth2/authorize?client_id=1549403430521667594](https://discord.com/oauth2/authorize?client_id=1549403430521667594) | `1549403430521667594` |
+| 七虎なるくん【VC-2】#2399 | [https://discord.com/oauth2/authorize?client_id=1549403496078381066](https://discord.com/oauth2/authorize?client_id=1549403496078381066) | `1549403496078381066` |
+| 七虎なるくん【VC-3】#9891 | [https://discord.com/oauth2/authorize?client_id=1549403547441963079](https://discord.com/oauth2/authorize?client_id=1549403547441963079) | `1549403547441963079` |
 
 ---
 
