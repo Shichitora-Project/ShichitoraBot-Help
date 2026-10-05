@@ -45,7 +45,7 @@
 | 超特殊文字 | `super_special_character` | 特殊なUnicode文字を悪用した超特殊文字を削除します。 | なし | `other` |
 | 冷笑 | `sneer` | 冷笑を検知します。より高度に検知したい場合はAIルールを用いてください。 | なし | `other` |
 | 淫夢語録 | `lewd_dream_words` | 某語録を検知します。より高度に検知したい場合はAIルールを用いてください。 | なし | `other` |
-| ボットチャットコマンド | `bot_chat_commands` | ボットのチャットコマンドを検知します。誤検知の可能性が高くあります。 | なし | `other` |
+| ボットチャットコマンド | `bot_chat_commands` | ボットのチャットコマンドを検知します。 | なし | `other` |
 | 認証トークン | `token` | Discordの内部トークンを検知し削除します。 | なし | `other` |
 | ベアラートークン | `bearer_token` | ボットの連携トークンを検知し削除します。 | なし | `other` |
 | 全体系メンション | `mention` | Everyone, Here, Gameのメンションを削除します。 | なし | `other` |
