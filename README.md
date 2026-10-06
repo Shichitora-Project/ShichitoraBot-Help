@@ -55,6 +55,7 @@
 | Matrix招待リンク | `matrix_invite` | Matrixの招待リンクを検知します。 | なし | `link` |
 | 画像リンクスパム | `image_spam` | 画像リンクを使用した詐欺画像スパムを検知します。 | なし | `link` |
 | 超特殊文字 | `super_special_character` | 特殊なUnicode文字を悪用した超特殊文字を削除します。 | なし | `other` |
+| コードだけの招待 | `invite_code` | コードだけの招待を検知します。 | なし | `other` |
 | 冷笑 | `sneer` | 冷笑を検知します。より高度に検知したい場合はAIルールを用いてください。 | なし | `other` |
 | 淫夢語録 | `lewd_dream_words` | 某語録を検知します。より高度に検知したい場合はAIルールを用いてください。 | なし | `other` |
 | ボットチャットコマンド | `bot_chat_commands` | ボットのチャットコマンドを検知します。 | なし | `other` |
