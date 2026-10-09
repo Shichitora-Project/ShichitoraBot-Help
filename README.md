@@ -123,7 +123,6 @@
 | 重複メッセージ | `duplicate` | 前回送信したメッセージと似通っているメッセージを検知します。 | `timeframe`, `similarity` | `message` |
 | 詐欺画像スパム | `scam_image` | AIを用いて詐欺画像を検知します。 | `similarityThreshold`, `textSimilarityThreshold` | `message` |
 | メンションスパム | `mention_spam` | メンションを過度に行う行為を検知します。 | `timeframe`, `mentionLimit` | `message` |
-| メンション制限 | `mention_restrict` | 特定のメンションしか受け付けないようにします。 | 特殊 | `message` |
 | 返信スパム | `reply_spam` | 過度な返信を検知します。 | `timeframe`, `replyLimit` | `message` |
 | 詐欺スレッド対策 | `scam_thread` | 詐欺スレッドを検知します。 | `titleMinLength`, `messageMinLength` | `message` |
 | 長文制限 | `long_message` | 過度な長文を検知します。 | `messageLimit` | `message` |
@@ -171,5 +170,6 @@
 | 政治的な内容が含まれるコンテンツ | `political_ai` | 政治的な内容が含まれるコンテンツかAIが判断します。 | なし | `ai` |
 | 差別的な内容が含まれるコンテンツ | `discriminatory_ai` | 差別的な内容が含まれるコンテンツかAIが判断します。 | なし | `ai` |
 | カスタムルール | `custom` | 自分だけのカスタムルールを作成します。 | 特殊 | `custom` |
-| 招待リンク作成チャンネル制限 | `invite_restrict` | 招待リンクを作成できるチャンネルを制限します。このルールは、ルールホワイトリストに対応していますが、ルールホワイトリストを設定することができません。 | 特殊 | なし |
-| SNSリンクの発信者の制限 | `sns_restrict` | SNSリンクの発信者の制限します。このルールは、ルールホワイトリストに対応していますが、ルールホワイトリストを設定することができません。 | 特殊 | なし |
+| メンション制限 | `mention_restrict` | 特定のメンションしか受け付けないようにします。 | 特殊 | `restrict` |
+| 招待リンク作成チャンネル制限 | `invite_restrict` | 招待リンクを作成できるチャンネルを制限します。 | 特殊 | `restrict` |
+| SNSリンクの発信者の制限 | `sns_restrict` | SNSリンクの発信者の制限します。 | 特殊 | `restrict` |
