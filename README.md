@@ -129,7 +129,6 @@
 | 改行制限 | `too_many_line` | 過度な改行を検知します。 | `timeframe`, `lineLimit` | `message` |
 | 投票制限 | `too_poll` | 過度な投票の送信を検知します。 | `timeframe`, `pollLimit` | `message` |
 | 同じ文字のリピート | `character_repeats` | 過度に同じ文字を連続して使っているメッセージを検知します。 | `timeframe`, `repeatLimit` | `message` |
-| 特定文字スパム | `specific_char_spam` | 特定の文字の使用回数を制限します。 | 特殊 | `message` |
 | 画像数制限 | `too_many_images` | 過度な画像の使用を検知します。 | `timeframe`, `imageLimit` | `message` |
 | 絵文字数制限 | `too_emoji` | 過度な絵文字の使用を検知します。 | `timeframe`, `emojiLimit` | `message` |
 | リンク数制限 | `too_link` | 過度なリンクの使用を検知します。 | `timeframe`, `linkLimit` | `message` |
@@ -170,6 +169,7 @@
 | 政治的な内容が含まれるコンテンツ | `political_ai` | 政治的な内容が含まれるコンテンツかAIが判断します。 | なし | `ai` |
 | 差別的な内容が含まれるコンテンツ | `discriminatory_ai` | 差別的な内容が含まれるコンテンツかAIが判断します。 | なし | `ai` |
 | カスタムルール | `custom` | 自分だけのカスタムルールを作成します。 | 特殊 | `custom` |
+| 特定文字スパム | `specific_char_spam` | 特定の文字の使用回数を制限します。 | 特殊 | `restrict` |
 | メンション制限 | `mention_restrict` | 特定のメンションしか受け付けないようにします。 | 特殊 | `restrict` |
 | 招待リンク作成チャンネル制限 | `invite_restrict` | 招待リンクを作成できるチャンネルを制限します。 | 特殊 | `restrict` |
 | SNSリンクの発信者の制限 | `sns_restrict` | SNSリンクの発信者の制限します。 | 特殊 | `restrict` |
